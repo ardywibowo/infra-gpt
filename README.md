@@ -4,9 +4,16 @@
 
 *Talk to your servers. Automate your DevOps.*
 
+
 </div>
 
 InfraGPT connects GPT to your server and enables it to run arbitrary shell commands. This allows you to talk to GPT and it will run commands for you in your server.
+
+<div align="center">
+    <img src="images/diagram.png" alt="InfraGPT" width="1024" />
+    <img src="images/example.png" alt="InfraGPT" width="1024" />
+</div>
+
 
 # Plugins Quickstart
 
