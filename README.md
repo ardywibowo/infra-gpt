@@ -1,3 +1,13 @@
+<div align="center">
+  
+# InfraGPT
+
+*Talk to your servers. Automate your DevOps.*
+
+</div>
+
+InfraGPT connects GPT to your server and enables it to run arbitrary shell commands. This allows you to talk to GPT and it will run commands for you in your server.
+
 # Plugins Quickstart
 
 Get a Todo list ChatGPT plugin up and running in under 5 minutes using Python. If you do not already have plugin developer access, please [join the waitlist](https://openai.com/waitlist/plugins).
