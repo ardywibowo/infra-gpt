@@ -1,0 +1,14 @@
+quart
+quart-cors
+fastapi 
+uvicorn 
+pytest 
+requests 
+Pillow
+python-multipart
+torch 
+torchvision 
+torchaudio
+numpy
+torch
+torchvision

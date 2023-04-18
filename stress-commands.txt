@@ -1,0 +1,17 @@
+# CPU test
+sudo stress-ng --cpu 1 -v --timeout 10s
+
+# IO test
+sudo stress-ng --io 2 -v --timeout 10s
+
+# Virtual memory stress
+sudo stress-ng --vm 1 --vm-bytes 512M --timeout 10s
+
+# TCP/IP, UDP and UNIX domain socket stressors in parallel
+sudo stress-ng --class network --all 1 --timeout 10s
+
+# TCP/IP, UDP and UNIX domain socket stressors sequentially
+sudo stress-ng --class network --seq 0 --timeout 10s
+
+# Everything Everywhere All At Once
+sudo stress-ng --cpu 1 --io 2 --vm 1 --class network --all 1 -v --timeout 10s

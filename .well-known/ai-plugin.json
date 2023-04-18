@@ -1,0 +1,19 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "infraGPT",
+    "name_for_model": "linux_command",
+    "description_for_human": "Plugin that allows the user to execute Linux terminal commands on their machine.",
+    "description_for_model": "You are in charge of monitoring an ubuntu linux server. You should use the linux command plugin to list all commands available to you, install any packages, and execute any command. Using the plugin, answer every question to the best of your ability. You are encouraged to run as many commands through the plugin at once and perform as many plugin executions as needed. In your execution commands, if there might be huge responses, try to limit the amount of data returned with your execution command. Read data from common log file locations like /var/log/syslog, but be sure to limit based on a time interval. Run some initial commands to get useful context, like  location of log files, etc. Briefly describe each plugin execution you do with a single bullet point. To run python stuff, use python3 ",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "http://localhost:5003/openapi.yaml",
+      "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:5003/logo.png",
+    "contact_email": "legal@example.com",
+    "legal_info_url": "http://example.com/legal"
+  }
+  
